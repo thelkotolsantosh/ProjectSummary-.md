@@ -1,4 +1,4 @@
-# Cybersecurity Log Analyzer - GitHub Repository
+# Cybersecurity Log Analyzerr
 
 #📁 Complete Project Structure
 
