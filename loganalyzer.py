@@ -106,7 +106,7 @@ class LogAnalyzer:
             'total_logs': len(self.logs),
             'action_distribution': dict(action_count),
             'status_distribution': dict(status_count),
-            'unique_ips': len(self.ip_stats),
+            'unique_ips': len({log['source_ip'] for log in self.logs}),
             'unique_users': len(set(log['username'] for log in self.logs))
         }
     
